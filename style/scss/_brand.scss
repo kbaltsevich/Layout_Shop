@@ -1,0 +1,41 @@
+.brand{
+    width: 100%;
+    height: 100vh;
+    background-color: $pink;
+    display: flex;
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/brand/brand.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0 75px;
+    }
+
+    &__right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__logo{
+        margin-top: 75px;
+        margin-left: 60px;
+        padding: 0 0 0 10px;
+        border-left: 4px solid $dark_pink;
+        text-transform: uppercase;
+    }
+
+    &__title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    &__text{
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
