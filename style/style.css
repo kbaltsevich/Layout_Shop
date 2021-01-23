@@ -434,4 +434,36 @@ nav {
   line-height: 19px;
   color: #F16D7F;
 }
+
+.production__btn {
+  width: 212px;
+  height: 48px;
+  color: #E8E8E8;
+  background-color: #F16D7F;
+  text-align: center;
+  line-height: 48px;
+  font-size: 16px;
+  text-transform: capitalize;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.production__btn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #fff;
+  border: 1px solid #F16D7F;
+  color: #F16D7F;
+}
+
+.production__btn-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
